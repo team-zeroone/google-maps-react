@@ -126,7 +126,7 @@ export const wrapper = input => WrappedComponent => {
       });
 
       return (
-        <div>
+        <div style={{ width: '100%', height: '90%' }}>
           <WrappedComponent {...props} />
           <div ref={this.mapRef} />
         </div>
